@@ -28,7 +28,7 @@ Your app needs to have Contacts permission from the user, as described [here](ht
 Add the following line to your Podfile:
 
 ```ruby
-pod 'PicUPSDKv3'
+pod 'PicUPSDKv3', :git => 'https://github.com/PicupMobile/IOS.TestPicupSDKv3.git'
 ```
 
 Then run:
@@ -41,13 +41,13 @@ pod install
 
 Navigate to the Swift packages section in your project, add a new package, enter
 
-`https://github.com/PicupMobile/IOS.PicupSDKv3`
+`https://github.com/PicupMobile/IOS.TestPicupSDKv3`
 
 and click "Next".
 
 ### Manual
 
-Download the latest version from [here](https://github.com/PicupMobile/IOS.PicupSDKv3/releases) and extract it. Copy **SDKFramework/PicUPSDKv3.framework** to your project by drag and dropping it into Xcode project navigator. When asked, choose to **Copy items if needed**:
+Download the latest version from [here](https://github.com/PicupMobile/IOS.TestPicupSDKv3/releases) and extract it. Copy **SDKFramework/PicUPSDKv3.framework** to your project by drag and dropping it into Xcode project navigator. When asked, choose to **Copy items if needed**:
 
 <p align="center">
 <img src="Screenshots/manual-install.png" height="280">
