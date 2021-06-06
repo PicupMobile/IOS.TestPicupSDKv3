@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = "PicUPSDKv3"
-    s.version = "2.2.3"
+    s.version = "2.3.0"
     s.summary = "PicUPSDKv3"
 
     s.homepage = 'https://picup.io'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.0'
     s.cocoapods_version = '>= 1.10.0'
 
-    s.source = { :git => 'https://github.com/PicupMobile/IOS.PicupSDKv3', :tag => s.version }
+    s.source = { :git => 'https://github.com/PicupMobile/IOS.TestPicupSDKv3', :tag => s.version }
     s.vendored_frameworks = 'PicUPSDKv3.xcframework'
     s.preserve_paths =  'PicUPSDKv3.xcframework/*'
     s.source_files = 'PicUPSDKv3.xcframework/ios-arm64_armv7/PicUPSDKv3.framework/Headers/*.{h,m,swift}'
