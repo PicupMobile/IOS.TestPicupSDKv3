@@ -1,5 +1,60 @@
 # Changelog
 
+## [2.5.3]
+
+### Added
+- Add privacy manifest.
+
+## [2.5.2]
+
+### Added
+- Add setting to use all numbers, specific number, or campaign numbers (default).
+
+### Fixed
+- Move prolonged actions off the main thread.
+
+## [2.5.1]
+
+### Changed
+- Allow to get existing signature verification key.
+
+## [2.5.0]
+
+### Added
+- Add image signature verification.
+- Contact expiration improvements.
+- Allow multiple organization to co-exist on the same user device.
+
+### Fixed
+- iOS 16 improvements.
+- Reduce network requests.
+
+## [2.4.5]
+
+### Changed
+- More flexible timing specifications for asking permissions.
+
+## [2.4.4]
+
+### Fixed
+- avoid rare opt-in popup on activating app.
+
+## [2.4.3]
+
+### Changed
+- Full Objective-C interface
+
+## [2.4.2]
+
+### Added
+- Add option to describe contacts.
+- Respond to status requests.
+
+## [2.4.1]
+
+### Added
+- custom opt-in view.
+
 ## [2.4.0]
 
 ### Added
